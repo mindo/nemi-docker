@@ -8,8 +8,8 @@ Web app that will scale automatically across several containers
 
 Containers:
 - nemi:trusty 	= ubuntu:trusty + serf ( http://www.serfdom.io )
-- nginx-phpfpm 	= nemi:trusty + nginx + php-fpm
-- percona	= nemi:trusty + percona
+- nemi:web 	= nemi:trusty + nginx + php-fpm
+- nemi:sql	= nemi:trusty + percona
 
 ## Docs
 
